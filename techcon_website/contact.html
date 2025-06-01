@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Us - TechCon 2024</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="register.html">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Contact Information Section -->
+    <section>
+      <h2>Contact Information</h2>
+      <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+
+      <h3>Follow Us</h3>
+      <ul>
+        <li><a href="https://facebook.com/TechCon" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+        <li><a href="https://twitter.com/TechCon" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+        <li><a href="https://linkedin.com/TechCon" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      </ul>
+
+      <h3>Location</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=YOUR_MAP_URL" width="600" height="450" style="border:0;"
+        allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Contact Us Form -->
+    <section>
+      <h2>Contact Us</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p> copyright © 2024 TechCon. All rights reserved.</p>
+  </footer>
+
+</body>
+
+</html>
